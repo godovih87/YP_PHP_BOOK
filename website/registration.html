@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Регистрация</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <form action="code.php" method="post">
+            <div class="container">
+                <h1>Регистрация</h1>
+
+                <p>Имя</p>
+                <input class="name" type="text" name="name" required>
+                <p>Фамилия</p>
+                <input class="surname" type="text" name="surname" required>
+                <p>Дата рождения</p>
+                <input class="date_birthday" type="date" name="date_birthday" required>
+                <p>Почта</p>
+                <input class="mail" type="email" name="mail" required>
+                <p>Логин</p>
+                <input class="login" type="text" name="login" required>
+                <p>Пароль</p>
+                <input class="password" type="password" name="password" required>
+
+                <button type="submit">Сохранить</button>
+                <button type="button" onclick="window.location.href='index.html';">Назад</button>
+            </div>
+        </form>
+    </body>
+</html>
